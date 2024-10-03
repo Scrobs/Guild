@@ -1,0 +1,68 @@
+/* app/static/css/styles.css */
+
+/* Override Bootstrap's primary color */
+:root {
+    --bs-primary: #4a148c; /* Deep Purple */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.btn {
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.alert {
+    border-radius: 0.5rem;
+}
+
+.list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+
+.toast {
+    min-width: 250px;
+}
+
+/* Additional Custom Styles */
+.game-card {
+    transition: transform 0.2s;
+}
+
+.game-card:hover {
+    transform: scale(1.02);
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
